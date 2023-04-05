@@ -1,4 +1,4 @@
-.App {}
+
 
 .home {
 	display: flex;
@@ -16,8 +16,7 @@
 }
 
 .header {
-	position: sticky;
-	top: 0;
+
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -34,12 +33,36 @@
 	-moz-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.32);
 }
 
-.footerInfo {
+.footerContainer {
 	display: flex;
 	flex: 0.3;
 	flex-wrap: wrap;
-	border: 2px solid red;
 	color: white;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	height: max-content;
 }
+
+ul {
+	list-style: none;
+	line-height: 30px;
+	margin-left: -15%;
+}
+
+li {
+	margin-top: 5%;
+}
+
+.contactInfo {
+	color: white;
+	height: max-content;
+	flex: 0.2;
+	text-align: left;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.services {
+	flex: 0.3;
+	color: white;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
