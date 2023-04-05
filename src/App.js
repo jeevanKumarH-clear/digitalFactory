@@ -2,9 +2,9 @@ import { React } from 'react';
 import './App.scss';
 import Home from './components/Home';
 
-const App = () =>
+const App = (context) =>
 	<div className="App">
-		<Home/>
+		<Home { ...context }/>
 	</div>;
 
 export default App;
