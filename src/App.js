@@ -1,9 +1,10 @@
 import { React } from 'react';
 import './App.scss';
+import Home from './components/Home';
 
 const App = () =>
 	<div className="App">
-		Ready to start.
+		<Home/>
 	</div>;
 
 export default App;
