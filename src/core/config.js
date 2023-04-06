@@ -33,6 +33,21 @@ const config = {
 		'We create effective info-graphic images and videos to engage your target audience groups.',
 		'We can manage your branding, web development, digital marketing, social media portfolio and online reputation of your business.',
 	],
+
+	whyUsCards: [
+		{
+			title: 'EXCELLENT SUPPORT',
+			para: 'Our wide experience in Inbound Digital marketing methods combined with current technology solutions gives us the edge to deliver assured results.',
+		},
+		{
+			title: 'RESULT ORIENTED',
+			para: 'We strive to deliver RESULTS! We use analytical tools to monitor results and adapt to alternative plans based on the numbers to ensure our clients get what they signed up for.',
+		},
+		{
+			title: 'STRATEGIC APPROACH',
+			para: 'We believe in building the best strategy to produce expected results – we develop, test and execute the best digital marketing strategies based on the nature of our clients’ business.',
+		},
+	],
 };
 
 export default config;
