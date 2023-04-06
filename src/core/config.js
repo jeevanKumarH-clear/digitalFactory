@@ -48,6 +48,30 @@ const config = {
 			para: 'We believe in building the best strategy to produce expected results – we develop, test and execute the best digital marketing strategies based on the nature of our clients’ business.',
 		},
 	],
+
+	blogCards: [
+		{
+			img: 'https://digitalfactoryindia.com/storage/2022/09/Customer-Engagement-Through-GMB-750x400-optimized.jpg',
+			title: 'Tips to Improve Customer Engagement from Google My Business',
+			anchor: 'https://digitalfactoryindia.com/tips-for-improving-customer-engagement-through-google-my-business-in-2022/',
+			date: '02/09/2022',
+			info: 'Google My Business is an essentialGoogle platform that helps you engage with customers and showcase your business, so you...',
+		},
+		{
+			img: 'https://digitalfactoryindia.com/storage/2022/09/Seo-Tips-For-Growing-Your-Startup-business-2-750x400-optimized.jpg',
+			title: 'Important SEO Tips for Your Startup Business',
+			anchor: 'https://digitalfactoryindia.com/important-seo-tips-for-your-startup-business/',
+			date: '02/09/2022',
+			info: 'If it were a shop that served good food and ice cream, had access to the docks, and had...',
+		},
+		{
+			img: 'https://digitalfactoryindia.com/storage/2022/09/THE-10-BEST-WAYS-TO-SPEED-__UP-YOUR-WORDPRESS-WEBSITE-1-750x400-optimized.jpg',
+			title: '10 Ways to Speed Up WordPress Website',
+			anchor: 'https://digitalfactoryindia.com/10-ways-to-speed-up-wordpress-website/',
+			date: '02/09/2022',
+			info: 'Ever since Google announced the launch of page speed as a metric used to determine SEO ranking, website owners...',
+		},
+	],
 };
 
 export default config;

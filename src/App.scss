@@ -45,7 +45,7 @@
   	line-height: 30px;
   }
 
-  a {
+  .anchor {
   	text-decoration: none;
   	color: chartreuse;
   }
@@ -148,7 +148,7 @@
 	}
 
 	.viewMore {
-		width: 12%;
+		width: 10%;
 		border: 2px solid;
 		border-radius: 25px;
 		background-color:#115a9f;
@@ -280,3 +280,73 @@
   	font-weight: bolder;
   	padding-top: 15px;
   }
+
+	.ourBlog {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		border: 2px solid red;
+		height: 120vh;
+		width: 99.7%;
+	}
+
+	.blogPara {
+		text-align: center;
+		width: 65%;
+  	font-family: 'Montserrat';
+		font-size: 16px;
+		line-height: 1.5em;
+	}
+
+	.blogCards {
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	border-radius: 25px;
+  	height: max-content;
+  	width: 23%;
+  	text-align: left;
+  	font-size: 16px;
+  	font-family: 'Montserrat';
+  	word-wrap: break-word;
+  	padding: 30px;
+		box-shadow: 8px 8px 30px 0 rgba(42,67,113,.15);
+  }
+
+	.blogCardTitle {
+		font-weight: bolder;
+  	padding-top: 15px;
+		font-family: 'Montserrat';
+	}
+
+	.viewMoreBtn {
+		font-family: 'Montserrat';
+		align-self: baseline;
+	}
+
+	.blogDate {
+		display: flex;
+		align-items: center;
+		font-family: 'Montserrat';
+		color: grey;
+		align-self: flex-start;
+	}
+
+	.ourBlog>viewMore {
+		color: white;
+	}
+
+	.blogAnchor {
+		text-decoration: none;
+		color: black;
+	}
+
+	.viewMoreTwo {
+		width: 10%;
+		border-radius: 25px;
+		font-family: 'Montserrat';
+		font-weight: bold;
+		color: #115a9f;
+
+	}
+

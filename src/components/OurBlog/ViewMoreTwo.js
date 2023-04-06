@@ -4,12 +4,13 @@ import { Button } from '@mui/material';
 import React from 'react';
 import ArrowCircleRightRoundedIcon from '@mui/icons-material/ArrowCircleRightRounded';
 
-const ViewMore = () =>
-	<div className="viewMore">
+const ViewMoreTwo = () =>
+	<div className="viewMoreTwo">
 		<Button
-			sx={ { color: 'white' } }
-			endIcon={ <ArrowCircleRightRoundedIcon sx={ { size: 'xx-large' } }/> }
+			sx={ { color: '#115a9f', fontWeight: 'bold', fontSize: '20px', width: '200px' } }
+			variant="text"
+			endIcon={ <ArrowCircleRightRoundedIcon/> }
 		>View More</Button>
 	</div>;
 
-export default ViewMore;
+export default ViewMoreTwo;
