@@ -1,4 +1,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+	.App {
+		overflow: hidden;
+	}
 
   .home {
   	display: flex;
@@ -151,4 +154,74 @@
 		background-color:#115a9f;
 		font-family: 'Montserrat';
 		font-weight: bold;
+	}
+
+	.whatWeDo {
+		display: flex;
+		border: 2px solid red;
+		height: 100vh;
+		width: 99.7%;
+		padding: 15px;
+		overflow: hidden;
+		align-items: center;
+	}
+
+	.marketingServices {
+		display: flex;
+		flex: 0.6;
+		flex-direction: column;
+		height: max-content;
+		margin-left: 5%;
+	}
+
+	.H2 {
+		font-family: 'Montserrat';
+		font-size: 22px;
+		font-weight: 600;
+		margin-bottom: 35px;
+	}
+
+	.H6 {
+		font-size: 14px;
+		font-weight: 900;
+		letter-spacing: 1px;
+		color: #115a9f;
+		margin: 10px;
+	}
+
+	.dotHeading {
+		display: flex;
+		align-items: center;
+		color: #115a9f;
+	}
+
+	.servicePoints {
+		display: flex;
+		align-items: center;
+	}
+
+	.serviceName {
+		font-family: 'Montserrat';
+		font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5em;
+		padding: 5px;
+		width: 75%;
+	}
+
+	.serviceImage {
+		display: flex;
+		flex: 0.55;
+		overflow: hidden;
+	}
+
+	.ratingImg {
+		width: max-content;
+	}
+
+	.ratingImg:hover {
+		transform: translate(0px,-12px);
+		transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
 	}

@@ -22,6 +22,17 @@ const config = {
 			para: 'Craft your planning and ideas as a way to promote and sell products, to convey a message, or to develop a brand identity.',
 		},
 	],
+
+	marketingServices: [
+		'We help your business get listed and found online on searches.',
+		'We build responsive CMS Websites with great functionality.',
+		'We upgrade retail businesses to online eCommerce stores.',
+		'We enhance your brand visibility and follower base on social channels.',
+		'We take your business to social media channels to sell your product',
+		'We generate leads for your business through Google Ads, Facebook, Twitter & Instagram Campaigns.',
+		'We create effective info-graphic images and videos to engage your target audience groups.',
+		'We can manage your branding, web development, digital marketing, social media portfolio and online reputation of your business.',
+	],
 };
 
 export default config;
