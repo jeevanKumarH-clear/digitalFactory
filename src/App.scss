@@ -346,6 +346,11 @@
 		font-family: 'Montserrat';
 		font-weight: bold;
 		color: #115a9f;
-
 	}
 
+	.carouselContainer {
+		display: flex;
+		height: 90vh;
+		width: 99.7%;
+		border: 2px solid red;
+	}
