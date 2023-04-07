@@ -7,20 +7,20 @@ import { Box } from '@mui/material';
 const BlogCards = (context) => {
 	const { config: { blogCards }} = context;
 
-	return <div className="cardContainer">
+	return <div className="blogContainer">
 		{blogCards.map((card, key) =>
 			<div key={ key } className="blogCards">
-				<a className="blogAnchor" href={ card.anchor }>
-					<img
-						src={ card.img }
-						alt="img"
-						height="200px"
-					/>
+				<div className="blogImg">
+					<a href={ card.anchor }>
+						<img src={ card.img } alt="img" height="200px" width="100%"/>
+					</a>
+				</div>
+				<div className="blogDetails">
 					<Box className="blogDate" sx={ { fontSize: 'small' } }><AccessTimeIcon/>{card.date}</Box>
 					<div className="blogCardTitle">{card.title}</div>
-				</a>
-				<p>{card.info}</p>
-				<ViewMoreBtn { ...context }/>
+					<p>{card.info}</p>
+					<ViewMoreBtn { ...context }/>
+				</div>
 			</div>)}
 	</div>;
 };

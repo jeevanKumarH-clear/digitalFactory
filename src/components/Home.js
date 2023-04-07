@@ -1,4 +1,5 @@
 import React from 'react';
+import Banners from './Banners/Banners';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Idma from './Idma/Idma';
@@ -10,6 +11,7 @@ import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 const Home = (context) =>
 	<div className="home">
 		<Header { ...context }/>
+		<Banners/>
 		<Idma { ...context }/>
 		<WhatWeDo { ...context }/>
 		<WhyChooseUs { ...context }/>

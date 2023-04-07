@@ -97,17 +97,6 @@ const Carousel = () => {
 				alt="img"
 			/>
 		</div>
-		<div ref={ box2 } id="image2" className="img">
-			<img
-				src="https://digitalfactoryindia.com/storage/2021/01/ANALYZE-A-WEB-SITE-1-optimized.png"
-			/>
-		</div>
-		<div ref={ box3 } id="image3" className="img">
-			<img src="https://digitalfactoryindia.com/storage/2021/02/Email-marketing-01-optimized.png"/>
-		</div>
-		<div ref={ box4 } id="image4" className="img">
-			<img src="https://digitalfactoryindia.com/storage/2023/01/bg_white_firstslider-optimized.png"/>
-		</div>
 		<div className="left" onClick={ left }/>
 		<div className="right" onClick={ right }/>
 		<div className="dots">
