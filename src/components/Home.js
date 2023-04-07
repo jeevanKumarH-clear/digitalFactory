@@ -1,5 +1,6 @@
 import React from 'react';
 import Banners from './Banners/Banners';
+import CountBox from './CountBox/CountBox';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Idma from './Idma/Idma';
@@ -15,6 +16,7 @@ const Home = (context) =>
 		<Idma { ...context }/>
 		<WhatWeDo { ...context }/>
 		<WhyChooseUs { ...context }/>
+		<CountBox { ...context }/>
 		<OurBlog { ...context }/>
 		<RectangleImg { ...context }/>
 		<Footer { ...context }/>
